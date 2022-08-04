@@ -35,6 +35,8 @@ const appRoutes: Routes = [
 
 @NgModule({
     imports: [
+      // location strategies
+        // RouterModule.forRoot(appRoutes, {useHash: true})
         RouterModule.forRoot(appRoutes)
     ],
     exports: [RouterModule]
